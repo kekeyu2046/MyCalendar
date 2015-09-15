@@ -16,6 +16,7 @@ public class MainActivity extends Activity {
 //        startActivity(new Intent(getApplicationContext(),CalendarActivity.class));
         CalendarView calendarView = (CalendarView) findViewById(R.id.calendarView);
         calendarView.setDayWeek(1);//设置日历第一列周一，0（周日），1（周一），2（周二），3（周三），4（周四），5（周五），6（周六），
+
         calendarView.setData(currentDate, startDate, endDate);
     }
 
